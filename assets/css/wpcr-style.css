@@ -1,0 +1,19 @@
+.wpcr-rating-display {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.wpcr-rating-display .wpcr-numeric {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.wpcr-star {
+    font-size: 20px;
+    margin-right: 2px;
+    color: #ccc; /* default for empty star */
+}
+
+.wpcr-star.filled {
+    color: #f5b301; /* gold-ish color for filled star */
+}
